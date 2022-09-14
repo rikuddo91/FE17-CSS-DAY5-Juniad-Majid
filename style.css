@@ -29,11 +29,12 @@
   color: black;
 }
 
-body {
+* {
   margin: 0;
   padding: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
+
 body .baner {
   display: flex;
   background-color: rgb(203, 38, 113);
@@ -122,10 +123,6 @@ body .baner .item2 #email:hover, body .baner .item2 #basket:hover, body .baner .
   font-size: 25px;
   text-align: center;
 }
-.container .item3 .cena1:hover {
-  transform: scale(2);
-  transition: transform 0.5s ease;
-}
 .container .item3 .cena1 span {
   text-decoration: line-through;
 }
@@ -136,6 +133,10 @@ body .baner .item2 #email:hover, body .baner .item2 #basket:hover, body .baner .
 .container .item3 .cena1 #samsung {
   font-size: 30px;
   font-weight: bold;
+}
+.container .item3 .cena1:hover {
+  transform: scale(2);
+  transition: transform 0.5s ease;
 }
 .container .item3 .cena2 {
   background-color: white;
