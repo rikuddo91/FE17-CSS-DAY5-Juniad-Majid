@@ -1,0 +1,29 @@
+.navbar {
+    display: grid;
+    align-items: center;
+
+    grid-template-columns: 10% 15% 10% 10% 13% 12% 15% 14%;
+    grid-auto-rows: minmax(5vh, auto);
+    column-gap: 0.1em;
+    row-gap: 0.1em;
+    text-align: center;
+    background-color: $color_bg_main;
+    text-decoration-color: $color_bg_main;
+    .navi {
+        border-radius: 8px;
+        background-color: rgb(213, 211, 208);
+        color: $color_bg_main;
+        transition: $transition_ease;
+        padding: 15px;
+        &:hover{
+                transform: scale(1.5);
+        }
+        a{
+            color: $color_bg_main;
+            font-size: 15px;
+            margin: 15px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
